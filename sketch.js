@@ -146,13 +146,13 @@ function draw() {
   
   //starMessages4
   push();
-  translate(width * 0.5, height * 0.2);
+  translate(width * 0.5, height * 0.197);
   rotate(frameCount / -100.0);
   fill("white")
   starMessages(0, 0, 2.5, 15, 5);
   pop();
   
-  isMouseOverStarMessages = isMouseOver(width * 0.5, height * 0.2, 2.5 * 15, 5);
+  isMouseOverStarMessages = isMouseOver(width * 0.5, height * 0.197, 2.5 * 15, 5);
 
   // If the mouse is over "//starMessages1", call textNada
   if (isMouseOverStarMessages) {
@@ -161,13 +161,13 @@ function draw() {
   
   //starMessages5
   push();
-  translate(width * 0.72, height * 0.39);
+  translate(width * 0.72, height * 0.37);
   rotate(frameCount / -100.0);
   fill("white")
   starMessages(0, 0, 2.5, 15, 5);
   pop();
   
-  isMouseOverStarMessages = isMouseOver(width * 0.72, height * 0.39, 2.5 * 15, 5);
+  isMouseOverStarMessages = isMouseOver(width * 0.72, height * 0.37, 2.5 * 15, 5);
 
   // If the mouse is over "//starMessages1", call textNada
   if (isMouseOverStarMessages) {
