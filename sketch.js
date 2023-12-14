@@ -183,7 +183,7 @@ function sketchTitle() {
   textAlign(CENTER);
   textFont(font);
   noStroke();
-  fill('#A3C1AD');
+  fill('white');
   text(sketchTitle, windowWidth / 2, 50);
 }
 
