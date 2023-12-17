@@ -331,7 +331,7 @@ function textAye(){
 }
 
 function textChit(){
-  let Chit = "As a law student who also loves promoting the SDGs movement, I believe that by fostering peace and justice and spreading awareness in these two regions, we can strengthen their connection and contribute to overcoming today's political crisis."
+  let Chit = "As a law student who also loves promoting the SDGs movement, I believe that by fostering peace and justice and spreading awareness in these two regions, we can strengthen their connection and contribute to overcoming today's political crisis. - Chit, Myanmar"
   textAlign(LEFT);
   textFont("arial");
   textSize(20);
