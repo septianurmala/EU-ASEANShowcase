@@ -146,13 +146,13 @@ function draw() {
   
   //starMessages4
   push();
-  translate(width * 0.5, height * 0.197);
+  translate(width * 0.5, height * 0.19);
   rotate(frameCount / -100.0);
   fill("white")
   starMessages(0, 0, 2.5, 15, 5);
   pop();
   
-  isMouseOverStarMessages = isMouseOver(width * 0.5, height * 0.197, 2.5 * 15, 5);
+  isMouseOverStarMessages = isMouseOver(width * 0.5, height * 0.19, 2.5 * 15, 5);
 
   // If the mouse is over "//starMessages1", call textNada
   if (isMouseOverStarMessages) {
@@ -161,19 +161,48 @@ function draw() {
   
   //starMessages5
   push();
-  translate(width * 0.72, height * 0.37);
+  translate(width * 0.79, height * 0.20);
   rotate(frameCount / -100.0);
   fill("white")
   starMessages(0, 0, 2.5, 15, 5);
   pop();
   
-  isMouseOverStarMessages = isMouseOver(width * 0.72, height * 0.37, 2.5 * 15, 5);
+  isMouseOverStarMessages = isMouseOver(width * 0.79, height * 0.20, 2.5 * 15, 5);
 
   // If the mouse is over "//starMessages1", call textNada
   if (isMouseOverStarMessages) {
     textPutta();
   }
   
+  //starMessages6
+  push();
+  translate(width * 0.65, height * 0.25);
+  rotate(frameCount / -100.0);
+  fill("white")
+  starMessages(0, 0, 2.5, 15, 5);
+  pop();
+  
+  isMouseOverStarMessages = isMouseOver(width * 0.65, height * 0.25, 2.5 * 15, 5);
+
+  // If the mouse is over "//starMessages6", call textAye
+  if (isMouseOverStarMessages) {
+    textAye();
+  }
+  
+  //starMessages7
+  push();
+  translate(width * 0.17, height * 0.17);
+  rotate(frameCount / -100.0);
+  fill("white")
+  starMessages(0, 0, 2.5, 15, 5);
+  pop();
+  
+  isMouseOverStarMessages = isMouseOver(width * 0.17, height * 0.17, 2.5 * 15, 5);
+
+  // If the mouse is over "//starMessages6", call textAye
+  if (isMouseOverStarMessages) {
+    textChit();
+  }
   
 }
 
@@ -289,6 +318,24 @@ function textTif(){
   textFont("arial");
   textSize(20);
   text(Tif, windowWidth - 1450, height-200, windowWidth - 50, 
+       height + 500);
+}
+
+function textAye(){
+  let Aye = "As a young gender equality advocate from Southeast Asia, I hope that this partnership fosters a stronger collaboration in promoting gender equality, providing awareness among the citizens and ensuring equal opportunities and representation across all professions. This would contribute to a more inclusive and diverse work environment, aligning with my aspirations for a fair and equitable society. - Aye, Myanmar"
+  textAlign(LEFT);
+  textFont("arial");
+  textSize(20);
+  text(Aye, windowWidth - 1450, height-200, windowWidth - 50, 
+       height + 500);
+}
+
+function textChit(){
+  let Chit = "As a law student who also loves promoting the SDGs movement, I believe that by fostering peace and justice and spreading awareness in these two regions, we can strengthen their connection and contribute to overcoming today's political crisis."
+  textAlign(LEFT);
+  textFont("arial");
+  textSize(20);
+  text(Chit, windowWidth - 1450, height-200, windowWidth - 50, 
        height + 500);
 }
 
